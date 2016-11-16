@@ -14,6 +14,11 @@
 		0AED99B11DDB8B6A00535055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AED99AF1DDB8B6A00535055 /* LaunchScreen.storyboard */; };
 		0AED99BD1DDBB63B00535055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AED99BC1DDBB63B00535055 /* GoogleService-Info.plist */; };
 		316C01C7EB4903927688FC1D /* Pods_HikeIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */; };
+		44A99AB11DDC054400C24ECA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A99AB01DDC054400C24ECA /* Login.storyboard */; };
+		44A99AB31DDC058C00C24ECA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A99AB21DDC058C00C24ECA /* LoginViewController.swift */; };
+		44A99AB51DDC05AF00C24ECA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A99AB41DDC05AF00C24ECA /* RegisterViewController.swift */; };
+		44A99AB91DDC9FF300C24ECA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A99AB81DDC9FF300C24ECA /* MainViewController.swift */; };
+		44A99ABB1DDCA0EB00C24ECA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A99ABA1DDCA0EB00C24ECA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,12 @@
 		0AED99BC1DDBB63B00535055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F03E7080D5B299185ED33E /* Pods-HikeIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.release.xcconfig"; sourceTree = "<group>"; };
+		44A99AB01DDC054400C24ECA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboard/Login.storyboard; sourceTree = "<group>"; };
+		44A99AB21DDC058C00C24ECA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		44A99AB41DDC05AF00C24ECA /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		44A99AB61DDC08A100C24ECA /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		44A99AB81DDC9FF300C24ECA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/MainViewController.swift; sourceTree = "<group>"; };
+		44A99ABA1DDCA0EB00C24ECA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		85EFCC9AE41CBC823345416E /* Pods-HikeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A99ABB1DDCA0EB00C24ECA /* MapKit.framework in Frameworks */,
 				316C01C7EB4903927688FC1D /* Pods_HikeIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,8 +58,11 @@
 		0AED999A1DDB8B6A00535055 = {
 			isa = PBXGroup;
 			children = (
+				44A99AAF1DDC04FC00C24ECA /* ViewControllers */,
+				44A99AAE1DDC04E700C24ECA /* Storyboards */,
 				0AED99A51DDB8B6A00535055 /* HikeIt */,
 				0AED99A41DDB8B6A00535055 /* Products */,
+				44A99AB61DDC08A100C24ECA /* BridgingHeader.h */,
 				E49BD66658C113A7DCAF17EA /* Pods */,
 				353C318A28B1AE3E83996473 /* Frameworks */,
 			);
@@ -79,9 +94,28 @@
 		353C318A28B1AE3E83996473 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44A99ABA1DDCA0EB00C24ECA /* MapKit.framework */,
 				0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44A99AAE1DDC04E700C24ECA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				44A99AB01DDC054400C24ECA /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		44A99AAF1DDC04FC00C24ECA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44A99AB21DDC058C00C24ECA /* LoginViewController.swift */,
+				44A99AB41DDC05AF00C24ECA /* RegisterViewController.swift */,
+				44A99AB81DDC9FF300C24ECA /* MainViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E49BD66658C113A7DCAF17EA /* Pods */ = {
@@ -134,6 +168,9 @@
 							com.apple.Keychain = {
 								enabled = 1;
 							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 						};
 					};
 				};
@@ -164,6 +201,7 @@
 				0AED99B11DDB8B6A00535055 /* LaunchScreen.storyboard in Resources */,
 				0AED99BD1DDBB63B00535055 /* GoogleService-Info.plist in Resources */,
 				0AED99AE1DDB8B6A00535055 /* Assets.xcassets in Resources */,
+				44A99AB11DDC054400C24ECA /* Login.storyboard in Resources */,
 				0AED99AC1DDB8B6A00535055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,8 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A99AB31DDC058C00C24ECA /* LoginViewController.swift in Sources */,
 				0AED99A91DDB8B6A00535055 /* ViewController.swift in Sources */,
 				0AED99A71DDB8B6A00535055 /* AppDelegate.swift in Sources */,
+				44A99AB51DDC05AF00C24ECA /* RegisterViewController.swift in Sources */,
+				44A99AB91DDC9FF300C24ECA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
