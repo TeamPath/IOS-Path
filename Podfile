@@ -8,5 +8,7 @@ target 'HikeIt' do
   # Pods for HikeIt
   
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
 
 end
