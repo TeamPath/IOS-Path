@@ -14,6 +14,7 @@
 		0AED99B11DDB8B6A00535055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AED99AF1DDB8B6A00535055 /* LaunchScreen.storyboard */; };
 		0AED99BD1DDBB63B00535055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AED99BC1DDBB63B00535055 /* GoogleService-Info.plist */; };
 		316C01C7EB4903927688FC1D /* Pods_HikeIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */; };
+		5AA2156D1DDC02E600B35CD5 /* HealthKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0AED99BC1DDBB63B00535055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F03E7080D5B299185ED33E /* Pods-HikeIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.release.xcconfig"; sourceTree = "<group>"; };
+		5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthKitViewController.swift; path = HealthKit/HealthKitViewController.swift; sourceTree = "<group>"; };
 		85EFCC9AE41CBC823345416E /* Pods-HikeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 		0AED99A51DDB8B6A00535055 /* HikeIt */ = {
 			isa = PBXGroup;
 			children = (
+				5AA2156B1DDC02B900B35CD5 /* HealthKit */,
 				0AED99BA1DDBB43E00535055 /* HikeIt.entitlements */,
 				0AED99A61DDB8B6A00535055 /* AppDelegate.swift */,
 				0AED99A81DDB8B6A00535055 /* ViewController.swift */,
@@ -82,6 +85,14 @@
 				0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA2156B1DDC02B900B35CD5 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */,
+			);
+			name = HealthKit;
 			sourceTree = "<group>";
 		};
 		E49BD66658C113A7DCAF17EA /* Pods */ = {
@@ -225,6 +236,7 @@
 			files = (
 				0AED99A91DDB8B6A00535055 /* ViewController.swift in Sources */,
 				0AED99A71DDB8B6A00535055 /* AppDelegate.swift in Sources */,
+				5AA2156D1DDC02E600B35CD5 /* HealthKitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
