@@ -15,6 +15,7 @@
 		0AED99BD1DDBB63B00535055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AED99BC1DDBB63B00535055 /* GoogleService-Info.plist */; };
 		316C01C7EB4903927688FC1D /* Pods_HikeIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */; };
 		5AA2156D1DDC02E600B35CD5 /* HealthKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */; };
+		5AA2156F1DDC037B00B35CD5 /* HealthKitTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2156E1DDC037B00B35CD5 /* HealthKitTestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0FCD7F534F70EB7B9EE71811 /* Pods_HikeIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F03E7080D5B299185ED33E /* Pods-HikeIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.release.xcconfig"; sourceTree = "<group>"; };
 		5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthKitViewController.swift; path = HealthKit/HealthKitViewController.swift; sourceTree = "<group>"; };
+		5AA2156E1DDC037B00B35CD5 /* HealthKitTestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitTestFile.swift; sourceTree = "<group>"; };
 		85EFCC9AE41CBC823345416E /* Pods-HikeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HikeIt/Pods-HikeIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5AA2156C1DDC02E600B35CD5 /* HealthKitViewController.swift */,
+				5AA2156E1DDC037B00B35CD5 /* HealthKitTestFile.swift */,
 			);
 			name = HealthKit;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA2156F1DDC037B00B35CD5 /* HealthKitTestFile.swift in Sources */,
 				0AED99A91DDB8B6A00535055 /* ViewController.swift in Sources */,
 				0AED99A71DDB8B6A00535055 /* AppDelegate.swift in Sources */,
 				5AA2156D1DDC02E600B35CD5 /* HealthKitViewController.swift in Sources */,
